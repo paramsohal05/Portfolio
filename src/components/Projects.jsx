@@ -1,7 +1,7 @@
 import React from 'react';
 import tech from "../assets/techhouse11.png";
 import weather from  "../assets/weather.jfif";
-import curcon from "../assets/Currency.png"
+import curcon from "../assets/currency.png"
 import todo from "../assets/todo.jfif"
 import shopping from "../assets/shopping.jfif"
 import YT from "../assets/YT.png"
@@ -74,9 +74,9 @@ const Projects = () => {
                 <h1><span className='text-pink-950 text-5xl font-extrabold font-serif'>P</span>rojects </h1>
             </div>
         {/* Projects Content */}
-            <div className='grid grid-col-1  mx-auto md:grid-cols-4 gap-10 gap-y-10'> 
+            <div className='grid grid-col-1  mx-auto md:grid-cols-3 gap-20'> 
                 {cardItems.map(({id, title, description, href, img})=>(
-                     <div className='flex flex-col items-center space-y-3 rounded-xl w-[400px] md:w-[300px] h-[370px] bg-pink-200 p-3 shadow-xl hover:scale-100 duration-300 hover:border border-pink-900 cursor-pointer'>
+                     <div className='flex flex-col items-center space-y-3 rounded-xl w-[400px] md:w-[270px] h-[370px] bg-pink-200 p-3 shadow-xl hover:scale-100 duration-300 hover:border border-pink-900 cursor-pointer'>
                      <img src={img} alt='' className='h-[150px] w-[150px] rounded-full mt-2'/>
                      
                         <h1 className='font-semibold font-serif text-xl md:text-lg'>{title}</h1>
