@@ -1,6 +1,7 @@
 import React from 'react'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { LuMenu } from "react-icons/lu";
+import { Link } from 'react-router-dom';
 
 const MobileNavbar = () => {
   return (
@@ -12,33 +13,33 @@ const MobileNavbar = () => {
       <MenuItems anchor="bottom" as='ul' className='mt-4 z-30 flex flex-col gap-2 w-40 
       bg-slate-300 items-center p-2 rounded-md outline-none shadow-2xl'>
         <MenuItem as='li' className='shadow-xl rounded-md py-2 px-4 text-pink-900 text-lg '>
-          <a className="block data-focus:bg-blue-100" href="/">
+          <Link className="block data-focus:bg-blue-100" to="/">
             Home
-          </a>
+          </Link>
         </MenuItem >
         <div className='border border-gray-400 w-full px-2'/>
         <MenuItem as='li' className='shadow-xl rounded-md py-2 px-4 text-pink-900 text-lg '>
-          <a className="block data-focus:bg-blue-100" href="/about">
+          <Link className="block data-focus:bg-blue-100" to="/about">
            About
-          </a>
+          </Link>
         </MenuItem>
         <div className='border  border-gray-400 w-full px-2'/>
         <MenuItem as='li' className='shadow-xl rounded-md py-2 px-4 text-pink-900 text-lg '>
-          <a className="block data-focus:bg-blue-100" href="/skills">
+          <Link className="block data-focus:bg-blue-100" to="/skills">
             Skills
-          </a>
+          </Link>
         </MenuItem>
         <div className='border  border-gray-400 w-full px-2'/>
         <MenuItem as='li' className='shadow-xl rounded-md py-2 px-4 text-pink-900 text-lg '>
-          <a className="block data-focus:bg-blue-100" href="/projects">
+          <Link className="block data-focus:bg-blue-100" to="/projects">
             Projects
-          </a>
+          </Link>
         </MenuItem>
         <div className='border  border-gray-400 w-full px-2'/>
         <MenuItem as='li' className='shadow-xl rounded-md py-2 px-4 text-pink-900 text-lg '>
-          <a className="block data-focus:bg-blue-100" href="/contact">
+          <Link className="block data-focus:bg-blue-100" to="/contact">
            Contact
-          </a>
+          </Link>
         </MenuItem>
         <div className='border border-gray-400 w-full px-2'/>
       </MenuItems>

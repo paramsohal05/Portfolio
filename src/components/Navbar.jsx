@@ -47,7 +47,7 @@ const Navbar = () => {
         <div className='text-black font-bold  text-xl sm:text-4xl font-serif'>
              <h1>P<span className='text-slate-300 '>ort</span>F<span className='text-slate-300'>olio</span></h1>
         </div>
-{/* desktop navbar */}
+  { /* desktop navbar */}
         <div className='font-medium'>
            <ul className='hidden md:flex md:space-x-6 lg:space-x-10'>
             {navItems.map(({id, text, link})=>(
@@ -67,7 +67,7 @@ const Navbar = () => {
            </div>
           
         </div>
-    </div>
+    </div>  
   {/* </header> */}
     </>
   )
