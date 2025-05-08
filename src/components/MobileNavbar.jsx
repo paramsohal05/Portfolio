@@ -13,33 +13,33 @@ const MobileNavbar = () => {
       <MenuItems anchor="bottom" as='ul' className='mt-4 z-30 flex flex-col gap-2 w-40 
       bg-slate-300 items-center p-2 rounded-md outline-none shadow-2xl'>
         <MenuItem as='li' className='shadow-xl rounded-md py-2 px-4 text-pink-900 text-lg '>
-          <Link className="block data-focus:bg-blue-100" to="/">
+          <a className="block data-focus:bg-blue-100" href="/">
             Home
-          </Link>
+          </a>
         </MenuItem >
         <div className='border border-gray-400 w-full px-2'/>
         <MenuItem as='li' className='shadow-xl rounded-md py-2 px-4 text-pink-900 text-lg '>
-          <Link className="block data-focus:bg-blue-100" to="/about">
+          <a className="block data-focus:bg-blue-100" href="/about">
            About
-          </Link>
+          </a>
         </MenuItem>
         <div className='border  border-gray-400 w-full px-2'/>
         <MenuItem as='li' className='shadow-xl rounded-md py-2 px-4 text-pink-900 text-lg '>
-          <Link className="block data-focus:bg-blue-100" to="/skills">
+          <a className="block data-focus:bg-blue-100" href="/skills">
             Skills
-          </Link>
+          </a>
         </MenuItem>
         <div className='border  border-gray-400 w-full px-2'/>
         <MenuItem as='li' className='shadow-xl rounded-md py-2 px-4 text-pink-900 text-lg '>
-          <Link className="block data-focus:bg-blue-100" to="/projects">
+          <a className="block data-focus:bg-blue-100" href="/projects">
             Projects
-          </Link>
+          </a>
         </MenuItem>
         <div className='border  border-gray-400 w-full px-2'/>
         <MenuItem as='li' className='shadow-xl rounded-md py-2 px-4 text-pink-900 text-lg '>
-          <Link className="block data-focus:bg-blue-100" to="/contact">
+          <a className="block data-focus:bg-blue-100" href="/contact">
            Contact
-          </Link>
+          </a>
         </MenuItem>
         <div className='border border-gray-400 w-full px-2'/>
       </MenuItems>
